@@ -1,0 +1,5 @@
+.Adoc trial
+
+|==
+| hola | adios
+|==
