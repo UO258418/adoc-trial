@@ -3,10 +3,17 @@
 <html>
     <head>
         <title>EJS playground</title>
+        <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
         <%- include header %>
-        EJS playground
+        <h1>Esto es un h1</h1>
+        <ul>
+        <% subjects.forEach(s => {%>
+            <li><%= s.name %></li>
+        <%}) %>
+        </ul>
+        
         <%- include footer %>
     </body>
 </html>
